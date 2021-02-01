@@ -1,6 +1,6 @@
 import fileinput
-import sys
 
 
 def main():
-    sys.stdout.writelines(fileinput.input())
+    for line in fileinput.input():
+        print(line)
